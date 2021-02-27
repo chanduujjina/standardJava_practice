@@ -6,15 +6,15 @@ public class ForLoopDemo {
 
 		// print the values from 1 to 5
 		// i=i+1;
-		for (int i = 1; i <= 30; i++) {
-			//System.out.println(i);
+		for (int i = 1; i <= 5; i++) {
+			System.out.println(i);
 		}
 		
 		//print even numbers between 1 to 10
 		
 		
 		for (int i = 1; i <= 10; i++) {
-			//if the remainder is zero then number is prime
+			//if the remainder is zero then number is even
 			
 			if(i%2==0) {
 				//System.out.println("even number::"+i);

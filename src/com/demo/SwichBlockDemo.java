@@ -37,7 +37,7 @@ public class SwichBlockDemo {
 		default :
 			break;
 		}
-		
+		System.out.println("end of the switch block");
 		String messageType = getMessage(5);
 		System.out.println("messageType::"+messageType);
 		
@@ -62,7 +62,7 @@ public class SwichBlockDemo {
 			return "voice message";
 
 		default:
-			return "no meaasge";
+			return "no message";
 		}
 	}
 	
