@@ -57,3 +57,26 @@ break;
 
 //equilateral triangle
 //fibonacci series
+
+
+//java can have pass by refrence
+
+1.what is a method
+what are the advantages of method
+
+2.Namning convetions are required to create a method
+
+3.Types of a method
+
+User defined method
+Predefined method
+
+static method
+non static method
+
+method overloading
+
+//constructor
+
+
+
