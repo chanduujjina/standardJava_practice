@@ -76,7 +76,22 @@ non static method
 
 method overloading
 
-//constructor
+constructor 
+-----------
+Syntax
+public ClassName(){
+}
+
+1.Default constructors
+public ClassName(){
+}
+2.Parametorized constructor
+public ClassName(int a ,int b){
+this.a=a;
+this.b=b;
+}
+
+
 
 
 

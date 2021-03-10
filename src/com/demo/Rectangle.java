@@ -1,12 +1,50 @@
 package com.demo;
 
 public class Rectangle {
-	//0 5
-	//instance variable
-	private int height;
 	
-	//0 10
-	private int width;
+    //instance varible
+    private int length;
+	
+	//0
+	private int breadth;
+	
+	private int result;
+	
+	//default constructor
+	public Rectangle() {
+		System.out.println("inside default constructor");
+	}
+	
+	// 2 parametorized constructor
+	
+	private Rectangle(int length, int breadth) {
+		this.length = length;
+		this.breadth = breadth;
+	}
+
+	// 3 paremeter arg constructor
+	public Rectangle(int length, int breadth ,int result) {
+		//call 2 arg constructor from 3 arg
+		this(length,breadth);
+		
+		
+	}
+	
+	public int getLength() {
+		return length;
+	}
+
+	public void setLength(int length) {
+		this.length = length;
+	}
+
+	public int getBreadth() {
+		return breadth;
+	}
+
+	public void setBreadth(int breadth) {
+		this.breadth = breadth;
+	}
 	
 	//access specifier-public
 	
@@ -18,33 +56,25 @@ public class Rectangle {
 	
 	//method signature ->MethodName + Parameter List(getAreaofRectangle(int height ,int width))
 	//user defined method
-	public int getAreaofRectangle() {
-		return height*width;
-	}
-	
-	//setter method
-	//local varible
-	public void setHeight(int height) {
-		this.height =height;
-	}
-	
-	public int getHeight() {
-		return height;
-	}
 	
 	
-	public void setWidth(int width) {
-		this.width = width;
+	//area of reactangle
+	
+	public int getAreaOfRectangel() {
+		return length*breadth;
 	}
 	
-	public int getWidth() {
-		return width;
+	//perimter of rectangle 2(l+b)
+	
+	public int getPerimeterOfRectangle() {
+		return 2*(length+breadth);
 	}
 	
-   public static void displayAreaofReactangle() {
-		System.out.println("inside displayAreaofReactangle::");
+	public void displayMessage() {
+		System.out.println("result::"+result);
 	}
-
+	
+	
 	
 
 }

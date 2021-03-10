@@ -6,38 +6,26 @@ public class RectangleClient {
 
 //create an object of Reactangle
 
-		Rectangle rectangle = new Rectangle();
+		
+		
+		// set data to the object
+		//Parametorized Constror constructor
+		Rectangle rectangle = new Rectangle(10,15,0);
+		
+		
 
 		// set the data to the object
 
-		rectangle.setHeight(5);
-		rectangle.setWidth(10);
-
-		// call area method to find sqaure of rectangle
-
-		int area = rectangle.getAreaofRectangle();
-		System.out.println("area of sqaure::" + area);
-
-		// if you want to test with diffrent data
-
-		// create a new object
-
-		Rectangle rectangle1 = new Rectangle();
-
-		rectangle1.setHeight(7);
-		rectangle1.setWidth(14);
-
-		int area1 = rectangle1.getAreaofRectangle();
-		System.out.println("area of sqaure::" + area1);
+		//rectangle.setLength(10);
+		//rectangle.setBreadth(5);
 		
-		//predefined method
+		int area = rectangle.getAreaOfRectangel();
+		System.out.println("area of rectangle::"+area);
 		
-		int max = Math.max(10, 7);
-		System.out.println("max value is ::"+max);
+		int perimter = rectangle.getPerimeterOfRectangle();
+		System.out.println("perimter::"+perimter);
+
 		
-		//call a static method
-		
-		Rectangle.displayAreaofReactangle();
 
 	}
 	
