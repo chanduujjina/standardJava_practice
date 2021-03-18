@@ -91,6 +91,93 @@ this.a=a;
 this.b=b;
 }
 
+1.Oject is a super class for classes
+2.Object Methods
+
+Data Types:
+primitive
+Wraper(Object)
+
+int -0
+Integer-null
+
+boolean - false/true
+
+Boolean - null
+
+String(primitive or wraper and default value is null)
+char -''
+Character -null
+
+
+double -0
+
+Double-null
+
+long -0
+
+Long -null
+
+float -0.0f
+
+Float -null
+
+debug shortcuts:
+-----------------
+
+f6-move to next line
+
+f5-inside method
+
+f8- next debug point
+
+ctr+shift+i --to inspect the value of an expression or variable
+
+
+
+1.Inheritance
+2.Polymorphism
+3.Encapsulation
+4.Abstraction
+5.class
+6.Object
+
+
+Inheritance:
+------------
+
+Base class(Parent class) and Derivied class(child or sub class)
+
+1.Reausabilty
+2.method oveerriding
+
+
+Syntax:
+--------
+
+class Parent{
+private String val;
+}
+
+
+class Child extends Parent{
+main(){
+Syso("val");
+}
+
+
+EmployeeInfo:
+---------
+You can hold sub class object with Super class refrence
+
+method overriding
+
+
+
+PolyMorphism
+
+
+
 
 
 
