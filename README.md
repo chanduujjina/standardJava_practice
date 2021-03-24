@@ -165,6 +165,13 @@ main(){
 Syso("val");
 }
 
+Method overriding:
+Replacement of a functionality by the child class/derivied
+Lets have use of Lombok
+@Data(setter,getter,equsls,hashcode,tosting,parametorized constructor)
+Builder
+Employee emp1 = Employee.builder().id(1).name("chandu").build();
+
 
 EmployeeInfo:
 ---------
@@ -172,9 +179,10 @@ You can hold sub class object with Super class refrence
 
 method overriding
 
+Java11,java 8,java 7
 
-
-PolyMorphism
+PolyMorphism:
+-------------
 
 
 
