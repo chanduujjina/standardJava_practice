@@ -188,6 +188,28 @@ https://projectlombok.org/download
 
 java -jar lombok.jar
 
+static keyword in java:
+------------------
+static varible
+static block
+
+static method
+
+static variables ,static block will call/intialize at the time of class load
+statuc method will with Class name
+
+
+DesignPatterns:
+-------------
+
+SingleTon Design Pattern
+
+I need to pull the data only once at the time of application load
+
+DB Connectivity with Java:
+-----------------------
+Need Connection Object
+JDBC Connection
 
 
 

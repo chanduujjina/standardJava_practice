@@ -16,15 +16,20 @@ public class NetWork {
 
 	private int carrierId;
 	
-	private String carrierName;
+	private final String carrierName;
+	
+	
 	
 	private String dataCenter;
 	
 	public String getPlan() {
-		return "Unlimited 500 gb plan";
+		return "Unlimited 500 gb data plan";
 	}
 
 	public String getCarrierNameWithCountry(String country) {
+		if(country.equals("Japan")) {
+			return "there is no specfic provider";
+		}
 		return carrierName+"-"+country;
 		
 	}

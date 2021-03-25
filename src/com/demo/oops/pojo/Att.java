@@ -8,7 +8,7 @@ import lombok.ToString;
 @Getter
 @ToString
 
-public class Att extends NetWork{
+public final class  Att extends NetWork{
 	
 	public Att(int attplanId, String attplanName, String attplanCode, String attTradeinCode,NetWork network) {
 		super(network.getCarrierId(),network.getCarrierName());
