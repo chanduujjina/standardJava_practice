@@ -183,10 +183,16 @@ Java11,java 8,java 7
 
 PolyMorphism:
 -------------
+1.Compile time(Method overrloading)
 
-https://projectlombok.org/download
+example
+int m1(int a){
+}
+int m1(int a, int b){
+return a+b;
+}
+2.Runtime time(Method override)
 
-java -jar lombok.jar
 
 static keyword in java:
 ------------------
@@ -210,6 +216,74 @@ DB Connectivity with Java:
 -----------------------
 Need Connection Object
 JDBC Connection
+
+
+
+Parent class
+
+Child 1, Child 2
+
+Reflection APi:
+------------
+
+Load the class dynamically and instatiate it
+
+OOPS:
+------
+1.Inheritance
+2.polymorphism
+3.Encapsulation(Abstraction,Interface)
+
+Method with having body -concrete method
+method with definition but don't have body --> abstract method
+
+
+Parent(Base),Child(Dervied class)
+
+Interface
+
+Objects methods:
+--------------
+1.HashCode
+2.Equals
+3.toString
+4.wait(3 method)
+5.notify(2 methods)
+6.clone
+
+MVC Design pattern
+
+Model : which is came from db or some other external source
+View:which is class having the things dislaying in the UI
+Controller:which is the mapping class for the assocaited request
+
+
+Todo
+Cumcumber testing for Krishna
+
+JUnit:
+Power Mockito
+Mockito
+
+Build Tools:
+Maven
+Gtaddle
+
+Version Control:
+Git
+
+Code governanace tools:
+
+Sonar(PMD),JUNIT,Build tool,Check Style
+
+Review Comments:
+Check Styles
+Code reusability
+Code refactoring
+
+
+
+PowerMockito and Mockito
 
 
 
